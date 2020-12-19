@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: "Software Engineering Agency | Tachom",
+    title: "Software Engineering Team | Tachom",
+    siteUrl: "https://tachom.co.zw"
   },
   plugins: [
     "gatsby-plugin-sass",
