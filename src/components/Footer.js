@@ -6,13 +6,14 @@ export default function Footer() {
         <div className='py-6 bg-gray-900'>
             <div className='container mx-auto'>
                 <div className='flex flex-wrap px-4 divide-y divide-gray-500 space-y-8'>
+                    <div className='flex flex-wrap'>
                     <div className='w-full lg:w-1/2 px-4'>
                         <div className='py-4'>
                             <p className='text-3xl font-bold text-white'>About Us</p>
                         </div>
                         <div className=''>
                             <p className='text-gray-400 py-2'>
-                                We are Tachom, a Software Engineering Team based in Zimbabwe. Specialized in creating awesome experiences on web and mobile devices.
+                                We are Tachom, a <span className='font-medium'>Software Engineering</span> Team based in Zimbabwe. Specialized in creating awesome experiences on web and mobile devices.
                             </p>
                             <p className='text-gray-400 py-2'>
                                 We turn great ideas into meaningful and intuitive software solutions that are simple and easy to use and can improve people's lives without compromising on security.
@@ -48,6 +49,7 @@ export default function Footer() {
                         </div>
                     </div>
                 
+                    </div>
                     <div className='w-full pt-8 lg:pt-12 lg:mt-6 pb-4 text-gray-400 text-center'>
                         TEAM TACHOM &copy; 2020
                     </div>

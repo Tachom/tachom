@@ -1,8 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+@import url('http://fonts.cdnfonts.com/css/circular-std-book');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Circular Std Book', sans-serif;
+}
+
+.font-bold {
+    font-family: 'Circular Std Bold', sans-serif;
+}
+
+.font-medium {
+    font-family: 'Circular Std Medium', sans-serif;
 }
