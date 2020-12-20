@@ -20,7 +20,7 @@ export default function SeanPage() {
                 <p>
                     I am currently open to software development oportunities. If you want, you can view my 
                         <span className='text-blue-600'>
-                            <a href="#"> LinkedIn</a>
+                            <a href="https://www.linkedin.com/in/seanmuchie" target="blank"> LinkedIn</a>
                         </span> profile or download my updated resume.
                 </p>
 
