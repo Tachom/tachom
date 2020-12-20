@@ -7,9 +7,6 @@ export default function Navbar() {
                 <a href="/">
                     Home
                 </a>
-                <a href="/team">
-                    Team
-                </a>
                 <a href="/blog">
                     Blog
                 </a>

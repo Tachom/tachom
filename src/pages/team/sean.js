@@ -1,6 +1,7 @@
 import React from 'react'
 import Footer from '../../components/Footer'
 import Navbar from '../../components/Navbar'
+import SEO from '../../components/seo'
 import Sean from '../../images/team/sean.png'
 import "../../utils/styles.css"
 
@@ -8,7 +9,8 @@ import "../../utils/styles.css"
 export default function SeanPage() {
     return(
             <>
-            <div className='container pt-15 mx-auto max-w-5xl text-gray-900 divide-y divide-y px-2'>
+            <SEO />
+            <div className='container pt-15 mx-auto max-w-5xl text-gray-900 divide-y divide-y px-4'>
             <Navbar/>
             <div className='py-8 w-full'>
                 <p className='text-2xl text-gray-800'>

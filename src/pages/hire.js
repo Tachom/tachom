@@ -4,12 +4,14 @@ import sean from '../images/team/sean.png'
 import chris from '../images/team/chris.png'
 import Navbar from '../components/Navbar'
 import "../utils/styles.css"
+import SEO from '../components/seo'
 
 export default function HireUs() {
 
     return(
         <>
-            <div className='container pt-15 mx-auto max-w-5xl text-gray-900 py-8 px-2'>
+        <SEO/>
+            <div className='container pt-15 mx-auto max-w-5xl text-gray-900 py-8 px-4'>
             <Navbar/>
             <div className="flex py-8 space-x-8 justify-center">
                     <div>
