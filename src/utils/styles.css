@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
-@import url('http://fonts.cdnfonts.com/css/circular-std-book');
+@import url('./font.css');
 
 @tailwind base;
 @tailwind components;
