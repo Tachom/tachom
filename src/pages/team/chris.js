@@ -9,7 +9,7 @@ export default function ChrisPage() {
     return(
         <>
 
-        <div className='container pt-15 mx-auto max-w-5xl text-gray-900 divide-y'>
+        <div className='container pt-15 mx-auto max-w-5xl text-gray-500 divide-y'>
         <Navbar/>
             <div className='py-8 w-full'>
                 <p className='text-2xl text-gray-800'>
@@ -122,13 +122,13 @@ export default function ChrisPage() {
                             <div className='py-4 mt-4'>
                                 <p className='text-3xl font-bold text-gray-800'>Online Courses</p>
                             </div>
-                            <div className='space-y-1'>
+                            <div className='space-y-1 py-2'>
                                 <p className='text-xl font-bold text-gray-800'>Pluralsight</p>
                                 <p className='font-medium text-gray-800'>ReactJS Path</p>
                                 <p>February 2020 - April 2020</p>
                             </div>
 
-                            <div className='space-y-1'>
+                            <div className='space-y-1 py-4'>
                                 <p className='text-xl font-bold text-gray-800'>Coursera</p>
                                 <p className='font-medium text-gray-800'>How to win a DataScience Competition</p>
                                 <p>January 2020 - May 2020</p>

@@ -32,7 +32,14 @@ export default function HeaderTop() {
                     <p className='text-center text-xl py-2 text-gray-600'>We Design and Build Softwares</p>
                 </div>
             </div>
-            <div className='py-2'></div>
+            <div className='py-2 flex space-x-8'>
+                <p className='bg-blue-200 text-blue-600 rounded-full p-2'>
+                <svg height={20} width={20} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                    <path fillRule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clipRule="evenodd" />
+                </svg>
+                </p>
+                <p className='text-blue-600 font-medium my-auto text-xl'>Currently available for full time and freelance work</p>
+            </div>
             
             
         </div>
