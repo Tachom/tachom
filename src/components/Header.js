@@ -3,9 +3,9 @@ import React from 'react'
 export default function Header() {
 
     return(
-        <div id="header" className='flex justify-center text-center justify-center'>
+        <div id="header" className='flex justify-center justify-center'>
             <div className='py-6 px-4 w-full lg:w-1/2'>
-                <p className='text-4xl lg:text-6xl font-bold text-gray-800 py-4'>
+                <p className='text-4xl font-medium text-gray-800 py-4'>
                     Building software solutions and digital products.
                 </p>
                 <p className='py-2 text-xl text-gray-600'>

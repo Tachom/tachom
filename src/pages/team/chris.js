@@ -1,31 +1,36 @@
 import React from 'react'
+import Footer from '../../components/Footer'
+import Navbar from '../../components/Navbar'
 import Chris from '../../images/team/chris.png'
 import "../../utils/styles.css"
 
 
 export default function ChrisPage() {
     return(
-        <div className='container mx-auto w-full text-gray-600 divide-y'>
+        <>
+
+        <div className='container pt-15 mx-auto max-w-5xl text-gray-900 divide-y'>
+        <Navbar/>
             <div className='py-8 w-full'>
                 <p className='text-2xl text-gray-800'>
-                    My name is Tatenda Christopher Chinyamakobvu and I’m a freelance Software Developer with 3 years of 
+                    My name is Tatenda Christopher Chinyamakobvu and I’m a freelance Software Developer with 5 years of 
                     experience designing and building creative software solutions.
                 </p>
                 <p>
                     I am currently open to software development oportunities. If you want, you can view my 
                         <span className='text-blue-600'>
-                            <a href="/linkedin"> LinkedIn</a>
+                            <a href="https://www.linkedin.com/in/tate2301/"> LinkedIn</a>
                         </span> profile or download my updated resume.
                 </p>
 
                 <p>
                     I show casual pictures on 
                         <span className='text-blue-600'>
-                            <a href="/linkedin"> Instagram </a>
+                            <a href="https:///www.instagram.com/tatendachristophr"> Instagram </a>
                         </span>
                      and talk on 
                         <span className='text-blue-600'>
-                            <mailto href="/linkedin"> tatendachris@gmail.com</mailto>
+                            <a href="mailto:tatendachris@gmail.com"> tatendachris@gmail.com</a>
                         </span>
                 </p>
             </div>
@@ -132,6 +137,16 @@ export default function ChrisPage() {
                     </div>
                 </div>
             </div>
+            <div className='py-8'>
+                <p>
+                    If you have any questions, feedback, or just want to say hello, don't hesitate to 
+                    
+                    <a href="mailto:tatendachris@gmail.com" className='font-medium text-blue-600'> send me an email.</a>
+                </p>
+            </div>
         </div>
+    
+        <Footer/>
+        </>
     )
 }

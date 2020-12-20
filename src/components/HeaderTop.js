@@ -1,22 +1,13 @@
 import React from 'react'
 import sean from '../images/team/sean.png'
 import chris from '../images/team/chris.png'
+import Navbar from './Navbar'
 
 export default function HeaderTop() {
 
     return (
         <div className='h-screen flex flex-col justify-between pb-12 space-x-4'>
-            <div className='flex justify-end space-x-8 p-8'>
-                <p>
-                    Home
-                </p>
-                <p>
-                    Team
-                </p>
-                <p>
-                    Contact Us
-                </p>
-            </div>
+            <Navbar />
             <div className=''>
                 <div className="flex space-x-8 justify-center">
                     <div>

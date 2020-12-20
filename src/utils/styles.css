@@ -7,16 +7,9 @@
 
 body {
     font-family: 'Circular Std Book', sans-serif;
-    width: 100% !important;
 }
 
-@media (min-width: 1280px){
-    body {
-        width: 88%;
-        display: flex;
-        justify-items: center;
-    }
-}
+
 .font-bold {
     font-family: 'Circular Std Bold', sans-serif;
 }

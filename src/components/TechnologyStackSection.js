@@ -63,7 +63,7 @@ export default function TechnologyStackSection() {
                     </div>
                 </div>
                 <div className='w-full md:w-1/3 sm:w-1/2 lg:w-1/4 p-2'>
-                    <div className='h-64 bg-blue-700 p-4 flex justify-center rounded-t-md'>
+                    <div className='h-64 bg-blue-700 p-12 flex justify-center rounded-t-md'>
                         <img src="https://dbdb.io/media/logos/Cloud_Bigtable.png" alt="Google BigTable" className='h-full' />
                     </div>
                     <div className='py-4 flex justify-center bg-blue-900 text-white text-xl rounded-b-md'>

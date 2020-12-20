@@ -9,12 +9,15 @@ import "../utils/styles.css"
 const IndexPage = () => {
   return (
     <>
-      <HeaderTop />
-      <Header />
-      <ServicesSection />
-      <TechnologyStackSection />
+      <div className='container pt-15 mx-auto max-w-5xl text-gray-900'>
+        <HeaderTop />
+        <Header />
+        <ServicesSection />
+        <TechnologyStackSection />
+      </div>
       <Footer />
     </>
+    
   )
 }
 
