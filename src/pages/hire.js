@@ -9,7 +9,7 @@ export default function HireUs() {
 
     return(
         <>
-            <div className='container pt-15 mx-auto max-w-5xl text-gray-900 py-8'>
+            <div className='container pt-15 mx-auto max-w-5xl text-gray-900 py-8 px-2'>
             <Navbar/>
             <div className="flex py-8 space-x-8 justify-center">
                     <div>
@@ -40,8 +40,8 @@ export default function HireUs() {
                    </p>
                </div>
 
-               <form>
-                <div className='py-8 space-y-4'>
+               <form netlify data-netlify-recaptcha="true">
+                <div className='py-8 space-y-4' >
                     <input className='p-4 border-2 border-gray-500 w-full rounded-md' placeholder='Full name' name='name' required />
                     <input className='p-4 border-2 border-gray-500 w-full rounded-md' placeholder='Email' name='email_address' required />
                     <input className='p-4 border-2 border-gray-500 w-full rounded-md' placeholder='Phone' name='phone_number' required />
