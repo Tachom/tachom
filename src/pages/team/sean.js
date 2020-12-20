@@ -35,11 +35,11 @@ export default function SeanPage() {
             </div>
             <div className='py-8'>
                 <div className='w-full flex space-x-8'>
-                    <div className='h-24 w-24 p-2 rounded-lg bg-gray-200'>
+                    <div className='h-24 w-24 p-2 rounded-lg bg-yellow-200'>
                         <img src={Sean} alt="Sean Muchenje"/>
                     </div>
                     <div className='my-auto'>
-                        <p className='text-gray-500'>Read more about me</p>
+                        <p className='text-gray-500'>RESUME</p>
                         <p className='text-5xl font-bold text-gray-800'>Read more about me
                         </p>
                     </div>

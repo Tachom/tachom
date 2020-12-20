@@ -7,18 +7,18 @@ export default function HireUs() {
 
     return(
         <>
-            <Navbar/>
             <div className='container pt-15 mx-auto max-w-5xl text-gray-900 py-8'>
+            <Navbar/>
             <div className="flex py-8 space-x-8 justify-center">
                     <div>
-                        <div className='rounded-full h-32 bg-gray-200 flex flex-wrap'>
+                        <div className='rounded-full h-32 bg-red-200 flex flex-wrap shadow-lg'>
                             <a href='/team/chris'>
                                 <img src={chris} alt='Tatenda Christopher Chinyamakobvu' className='h-32' />
                             </a>
                         </div>
                     </div>
                     <div>
-                        <div className='rounded-full h-32 bg-gray-200 flex flex-wrap'>
+                        <div className='rounded-full h-32 bg-yellow-200 flex flex-wrap shadow-lg'>
                             <a href='/team/sean'>
                                 <img src={sean} alt='Sean Tendai Muchenje' className='h-32' />    
                             </a>                            
@@ -32,7 +32,7 @@ export default function HireUs() {
 
                    <p className='text-2xl py-4'>
                        Fill in the form or 
-                       <span className='ml-8 font-bold'>
+                       <span className='ml-8 font-bold underline'>
                            <a href="mailto:tatendachris@gmail.com">Send us an email</a>
                        </span>
                    </p>

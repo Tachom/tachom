@@ -14,7 +14,7 @@ export default function Navbar() {
                     Blog
                 </a>
                 <a href="/hire">
-                    Hire Us
+                    Hire
                 </a>
             </div>
             
