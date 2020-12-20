@@ -1,5 +1,6 @@
 import React from 'react'
 import Sean from '../../images/team/sean.png'
+import "../../utils/styles.css"
 
 
 export default function SeanPage() {
