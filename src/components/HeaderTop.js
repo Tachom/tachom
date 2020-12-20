@@ -5,17 +5,32 @@ import chris from '../images/team/chris.png'
 export default function HeaderTop() {
 
     return (
-        <div className='h-screen flex flex-col justify-center py-8 space-x-4'>
+        <div className='h-screen flex flex-col justify-between pb-12 space-x-4'>
+            <div className='flex justify-end space-x-8 p-8'>
+                <p>
+                    Home
+                </p>
+                <p>
+                    Team
+                </p>
+                <p>
+                    Contact Us
+                </p>
+            </div>
             <div className=''>
                 <div className="flex space-x-8 justify-center">
                     <div>
                         <div className='rounded-full h-32 bg-gray-200 flex flex-wrap'>
-                            <img src={chris} alt='Tatenda Christopher Chinyamakobvu' className='h-full' />
+                            <a href='/team/chris'>
+                                <img src={chris} alt='Tatenda Christopher Chinyamakobvu' className='h-32' />
+                            </a>
                         </div>
                     </div>
                     <div>
                         <div className='rounded-full h-32 bg-gray-200 flex flex-wrap'>
-                            <img src={sean} alt='Sean Tendai Muchenje' className='h-full' />
+                            <a href='/team/sean'>
+                                <img src={sean} alt='Sean Tendai Muchenje' className='h-32' />    
+                            </a>                            
                         </div>
                     </div>
                 </div>
@@ -26,9 +41,9 @@ export default function HeaderTop() {
                     <p className='text-center text-xl py-2 text-gray-600'>We Design and Build Softwares</p>
                 </div>
             </div>
-            <div className='flex justify-center mt-8'>
-                <a href='#header' className='text-white bg-gray-800 px-8 py-4 rounded-md'>Continue</a>
-            </div>
+            <div className='py-2'></div>
+            
+            
         </div>
     )
 }

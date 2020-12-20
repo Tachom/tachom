@@ -8,13 +8,13 @@ import "../utils/styles.css"
 // markup
 const IndexPage = () => {
   return (
-    <div className='container mx-auto'>
+    <>
       <HeaderTop />
       <Header />
       <ServicesSection />
       <TechnologyStackSection />
       <Footer />
-    </div>
+    </>
   )
 }
 
