@@ -36,11 +36,11 @@ export default function SeanPage() {
                 </p>
             </div>
             <div className='py-8'>
-                <div className='w-full flex space-x-8'>
+                <div className='w-full flex flex-wrap md:space-x-8'>
                     <div className='h-24 w-24 p-2 rounded-lg bg-yellow-200'>
-                        <img src={Sean} alt="Sean Muchenje"/>
-                    </div>
-                    <div className='my-auto'>
+                        <img src={Sean} alt="Sean Muchenje" className='h-20 w-20 w-auto'/>
+                    </div> 
+                    <div className='my-auto w-full py-4 md:w-auto md:py-0'>
                         <p className='text-gray-500'>RESUME</p>
                         <p className='text-5xl font-bold text-gray-800'>Read more about me
                         </p>

@@ -11,8 +11,9 @@ export default function HireUs() {
     return(
         <>
         <SEO/>
-            <div className='container pt-15 mx-auto max-w-5xl text-gray-900 py-8 px-4'>
+            <div className='container mx-auto max-w-5xl text-gray-900 px-4 divide-y'>
             <Navbar/>
+            <div>
             <div className="flex py-8 space-x-8 justify-center">
                     <div>
                         <div className='rounded-full h-32 bg-red-200 flex flex-wrap shadow-lg'>
@@ -57,6 +58,7 @@ export default function HireUs() {
             
             </div>
 
+            </div>
             <Footer/>
         </>
     )
