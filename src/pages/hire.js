@@ -3,6 +3,8 @@ import Footer from '../components/Footer'
 import sean from '../images/team/sean.png'
 import chris from '../images/team/chris.png'
 import Navbar from '../components/Navbar'
+import "../utils/styles.css"
+
 export default function HireUs() {
 
     return(

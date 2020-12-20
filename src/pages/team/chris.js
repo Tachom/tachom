@@ -9,7 +9,7 @@ export default function ChrisPage() {
     return(
         <>
 
-        <div className='container pt-15 mx-auto max-w-5xl text-gray-500 divide-y'>
+        <div className='container pt-15 mx-auto max-w-5xl text-gray-500 divide-y px-2'>
         <Navbar/>
             <div className='py-8 w-full'>
                 <p className='text-2xl text-gray-800'>
