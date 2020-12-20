@@ -1,7 +1,11 @@
 module.exports = {
   siteMetadata: {
     title: "Software Engineering Team | Tachom",
-    siteUrl: "https://tachom.co.zw"
+    siteUrl: "https://tachom.co.zw",
+    titleTemplate: "%s · Software Engineering Team | Tachom",
+    description:"We are Team Tachom, a Software Engineering team based in Zimbabwe. We develop creative but simple to use software solutions without compromising on security and we are looking forward to working with you on your next big project.",
+    url: "https://tachom.co.zw", // No trailing slash allowed!
+    image: "/images/logo.ppg",
   },
   plugins: [
     "gatsby-plugin-sass",
