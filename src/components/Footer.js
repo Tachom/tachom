@@ -35,7 +35,7 @@ export default function Footer() {
                                     <svg height={20} width={20} className='ml-4 my-auto' xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 4H6a2 2 0 00-2 2v12a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-2m-4-1v8m0 0l3-3m-3 3L9 8m-5 5h2.586a1 1 0 01.707.293l2.414 2.414a1 1 0 00.707.293h3.172a1 1 0 00.707-.293l2.414-2.414a1 1 0 01.707-.293H20" />
                                     </svg>
-                                    <p className='my-auto'>Send us an Email</p>
+                                    <a href="mailto:tatendachris@gmail.com" className='my-auto'>Send us an Email</a>
                                 </div>
                                 
                                 <div className='p-4 rounded flex space-x-4 bg-gray-800 text-gray-400'>
@@ -43,7 +43,7 @@ export default function Footer() {
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
                                     </svg>
                                     
-                                    <p>Send us a DM on WhatsApp</p>
+                                    <a href="https://wa.me/263784939111" target="blank">Send us a DM on WhatsApp</a>
                                 </div>
                             </div>
                         </div>
