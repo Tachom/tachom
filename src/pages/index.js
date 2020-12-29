@@ -15,9 +15,7 @@ const IndexPage = () => {
         <HeaderTop />
         <Header />
         <ServicesSection />
-        <TechnologyStackSection />
       </div>
-      <Footer />
     </>
     
   )
