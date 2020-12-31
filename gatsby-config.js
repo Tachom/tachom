@@ -9,6 +9,7 @@ module.exports = {
   },
   plugins: [
     "gatsby-plugin-sass",
+    "gatsby-plugin-netlify-cms",
     "gatsby-plugin-sharp",
     "gatsby-plugin-sitemap",
     "gatsby-transformer-sharp",
