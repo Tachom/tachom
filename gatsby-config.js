@@ -13,6 +13,7 @@ module.exports = {
     "gatsby-plugin-sharp",
     "gatsby-plugin-sitemap",
     "gatsby-transformer-sharp",
+    "gatsby-transformer-remark",
     "gatsby-plugin-postcss",
     {
       resolve: "gatsby-source-filesystem",
@@ -21,6 +22,13 @@ module.exports = {
         path: "./src/images/",
       },
       __key: "images",
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `markdown-pages`,
+        path: `${__dirname}/content/blog`, 
+      },
     },
     {
       resolve: `gatsby-plugin-google-gtag`,
