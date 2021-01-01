@@ -5,7 +5,7 @@ export default function TaglineSection() {
     return(
             <>
                 <div className="flex justify-center py-12 h-screen p-4 w-full">
-                    <div className="w-full h-full my-auto flex justify-center text-white rounded background-red-gradient">
+                    <div className="w-full h-full my-auto flex justify-center text-white rounded bg-bigsur">
                         <div className="space-y-4 text-center my-auto p-4">
                             <p className="text-3xl">
                                 <span className="font-bold">Agile</span> development team 

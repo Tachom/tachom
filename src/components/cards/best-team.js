@@ -10,9 +10,14 @@ export default function BestTeamSection() {
                         <p className="text-5xl lg:text-7xl font-bold text-gray-900">
                             Dedicated developers who help you grow your product.
                         </p>
-                        <p className="text-3xl lg:text-4xl font bold py-4">
-                        Apple Arcade was made to explore. You’ll find every kind of game you love, and others like you’ve never seen. 
-                        With new characters, stories, and worlds arriving each month. So you never run out of fun.
+                        <p className="text-3xl lg:text-5xl font bold py-4">
+                            Individuals and interactions over processes and tools.
+
+                            Working software over comprehensive documentation.
+
+                            Customer collaboration over contract negotiation.
+
+                            Responding to change over following a plan.
                         </p>
                     </div>
                     <div className="">

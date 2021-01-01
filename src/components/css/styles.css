@@ -35,10 +35,30 @@
     height: 50vh !important;
 }
 
+.ico-tailwind{
+    background: url("../../images/assets/tailwindcss-logotype.c5531139cf347d9ed15413ed15b6dd5c.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:left;
+}
+
+.bg-tailwind{
+    background: url("../../images/assets/EGH_CSSUtilityTailwinds.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:center;
+}
+
 .header-top-banner{
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+.bg-bigsur{
+    background-image: url("../../images/assets/big_sur__gf375i2898ia_large.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 @media screen and (max-height:1080px) {
