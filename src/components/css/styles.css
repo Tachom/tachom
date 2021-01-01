@@ -1,5 +1,55 @@
 .header-gradient-text{
-    background: -webkit-radial-gradient(#eee, #333);
+    background: -webkit-radial-gradient(#eee, #000);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.background-red-gradient{
+    background:radial-gradient(at 5% 5%, rgb(253 161 35) 0%, rgba(123, 207, 106, 0) 75%), radial-gradient(at 95% 5%, rgb(255 27 27) 0%, rgba(174, 193, 84, 0) 75%), radial-gradient(at 95% 95%, rgb(68 34 38) 0%, rgba(104, 169, 187, 0) 75%), radial-gradient(at 5% 95%, #f30000 0%, rgba(95, 194, 138, 0) 75%) !important;
+}
+
+.case-study-card{
+    height: 480px;
+    position: relative;
+}
+
+.bg-mobile-development{
+    background: url("../../images/assets/android.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50vh !important;
+
+}
+
+.bg-macos{
+    background: url("../../images/assets/xcode-12-large_2x.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50vh !important;
+}
+
+.bg-web-design{
+    background: url("../../images/assets/windows.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50vh !important;
+}
+
+.header-top-banner{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media screen and (max-height:1080px) {
+    .header-section{
+        padding: 32px;
+        min-height: 40vh;
+    }
+}
+
+@media screen and (min-height:1080px) {
+    .header-section{
+        min-height: 60vh;
+    }
 }
