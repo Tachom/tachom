@@ -14,6 +14,7 @@ module.exports = {
     "gatsby-plugin-sitemap",
     "gatsby-transformer-sharp",
     "gatsby-transformer-remark",
+    "gatsby-plugin-catch-links",
     "gatsby-plugin-postcss",
     {
       resolve: "gatsby-source-filesystem",

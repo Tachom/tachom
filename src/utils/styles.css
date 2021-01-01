@@ -1,19 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
-@import url('./font.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
-    font-family: 'Circular Std Book', sans-serif;
-}
-
-
-.font-bold {
-    font-family: 'Circular Std Bold', sans-serif;
-}
-
-.font-medium {
-    font-family: 'Circular Std Medium', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
