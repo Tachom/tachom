@@ -8,17 +8,10 @@ export default class BlogIndexPage extends React.Component {
   render() {
     return (
       <>
-        <div className="container mx-auto w-max-5xl">
+        <div className="w-full max-w-5xl mx-auto">
             <SEO title={"Blog"} />
             <Navbar/>
-            <React.Fragment>
-                <h1>Latest Posts</h1>
-                <section>
-                <div className="content">
-                    <BlogRoll />
-                </div>
-                </section>
-            </React.Fragment>
+            <BlogRoll />
         </div>
       </>
     )

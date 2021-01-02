@@ -9,40 +9,39 @@ class BlogRoll extends React.Component {
     console.log(posts)
 
     return (
-      <div className="columns is-multiline">
+      <div className="columns is-multiline text-gray-600">
         {posts &&
           posts.map(({ node: post }) => (
-            <div className="is-parent column is-6" key={post.id}>
-              <article
-                className={`blog-list-item tile is-child box notification ${
-                  post.frontmatter.featuredpost ? 'is-featured' : ''
-                }`}
-              >
-                <header>
-                  <p className="post-meta">
-                    <Link
-                      className="title has-text-primary is-size-4"
-                      to={post.frontmatter.path}
+              <Link  to={post.frontmatter.path}>
+                <div className="is-parent column is-6 py-8" key={post.id}>
+                    <article
+                      className={`blog-list-item tile is-child box notification ${
+                        post.frontmatter.featuredpost ? 'is-featured' : ''
+                      }`}
                     >
-                      {post.frontmatter.title}
-                    </Link>
-                    <span> &bull; </span>
-                    <span className="subtitle is-size-5 is-block">
-                      {post.frontmatter.date}
-                    </span>
-                  </p>
-                </header>
-                <p>
-                  {post.excerpt}
-                  <br />
-                  <br />
-                  <Link className="button" to={post.frontmatter.path}>
-                    Keep Reading →
-                  </Link>
-                </p>
-              </article>
+                      <header>
+                        <p className="post-meta">
+                          <Link
+                            className="title text-gray-900 has-text-primary is-size-4 text-2xl font-bold"
+                            to={post.frontmatter.path}>
+                            {post.frontmatter.title}
+                          </Link>                    
+                        </p>
+                      </header>
+                      <p>
+                        {post.excerpt}
+                        <br />
+                        <br />
+                        <span className="subtitle is-size-5 is-block text-gray-500">
+                            {post.frontmatter.date}
+                          </span>
+
+                      </p>
+                    </article>
             </div>
-          ))}
+          
+              </Link>
+            ))}
       </div>
     )
   }

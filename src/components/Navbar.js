@@ -3,7 +3,7 @@ import React from 'react'
 export default function Navbar() {
 
     return(
-        <div className='flex space-x-8 p-8 '>
+        <div className='flex space-x-8 py-8'>
                 <a href="/">
                     Home
                 </a>

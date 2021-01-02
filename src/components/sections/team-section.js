@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function CrossPlatformDevelopersSection() {
+export default function TeamSection() {
 
     return(
             <>

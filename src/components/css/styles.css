@@ -13,6 +13,7 @@
     position: relative;
 }
 
+
 .bg-mobile-development{
     background: url("../../images/assets/android.png");
     background-repeat: no-repeat;
@@ -49,14 +50,29 @@
     background-position:center;
 }
 
-.header-top-banner{
-    background-position: center;
+.bg-serverless{ 
+    background: url("../../images/assets/drib_00_node-lambda-cloud.png");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    background-position:center;
+}
+
+
+.header-top-banner{
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover;
+    background: linear-gradient(to right top, rgb(7, 25, 49) 0%, rgb(51, 39, 79) 50%, rgb(102, 30, 67) 100%);
 }
 
 .bg-bigsur{
     background-image: url("../../images/assets/big_sur__gf375i2898ia_large.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-connection {
+    background-image: url("../../images/assets/team-hero-artwork--mobile.png");
     background-size: cover;
     background-repeat: no-repeat;
 }

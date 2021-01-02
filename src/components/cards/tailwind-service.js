@@ -5,7 +5,7 @@ export default function TailwindService() {
     return(
             <>
             <div className="p-4 w-full lg:w-1/2">
-                <div className='w-full text-center rounded-xl shadow bg-white px-8 py-12'>
+                <div className='w-full text-center rounded-xl bg-gray-100 px-8 py-12'>
                     <div className="w-full flex">
                         <div className="mx-auto h-40 p-8 w-40 rounded-xl border-4 border-white shadow-xl bg-gray-200">
                             <div className="h-full p-4 bg-tailwind"></div>
