@@ -13,6 +13,7 @@ import CrossPlatformDevelopersSection from "../components/sections/cross-platfor
 import ApplicationArchitecture from "../components/cards/app-development"
 import Devops from "../components/cards/devops"
 import QualityAssurance from "../components/cards/quality-assurance"
+import Footer from "../components/Footer"
 // markup
 const IndexPage = () => {
   return (
@@ -64,8 +65,9 @@ const IndexPage = () => {
               <Microservices />
             </div>
           </div>
-
         </div>
+
+        <Footer/>
       </div>
     </>
     
