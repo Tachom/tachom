@@ -36,7 +36,7 @@ const IndexPage = () => {
             <BestTeamSection />
           </div>
 
-          <div className="py-12 p-4 lg:p-8 h-screen flex flex-wrap  w-full mb-12">
+          <div className="py-12 md:p-4 lg:p-8 h-screen flex flex-wrap  w-full mb-12">
             <TaglineSection />
           </div>
 

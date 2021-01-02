@@ -6,8 +6,8 @@ export default function BestTeamSection() {
             <>
             <div className="w-full h-full rounded-xl bg-white shadow p-8 lg:p-12 flex max-w-5xl flex mx-auto">
                             <div className="m-auto">
-                                <p className="text-6xl font-bold py-4">Dedicated developers who help you grow your product.</p>
-                                <p className="text-4xl font-bold">
+                                <p className="text-3xl md:text-6xl font-bold py-4">Dedicated developers who help you grow your product.</p>
+                                <p className="text-xl md:text-4xl font-bold">
                                 Individuals and interactions over processes and tools.
 
                                 Working software over comprehensive documentation.
