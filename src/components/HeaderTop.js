@@ -22,7 +22,7 @@ export default function HeaderTop() {
                                 love it very very much. 
                             </p>
                             <div className="py-8 w-full">
-                                <button className="text-white py-2 px-8 rounded-full bg-blue-700 font-bold">Tell us your idea</button>
+                                <a href="https://ojn1yd5k2bm.typeform.com/to/nA3tGPK2" target="_blank" className="text-white py-2 px-8 rounded-full bg-blue-700 font-bold">Tell us your idea</a>
                             </div>
                         </div>
                         <div className="w-0 h-0 lg:w-1/2 lg:h-auto p-8">

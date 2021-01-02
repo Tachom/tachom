@@ -1,7 +1,9 @@
 import React from 'react'
+import Footer from '../../components/Footer'
 import Navbar from '../../components/Navbar'
 import GetRecruitedSection from '../../components/sections/get-recruited'
 import SEO from '../../components/seo'
+import "../../utils/styles.css"
 
 export default function Team() {
 
@@ -42,6 +44,8 @@ export default function Team() {
                         <GetRecruitedSection/>
                     </div>
                 </div>
+                <Footer/>
+
             </>
             
     )
