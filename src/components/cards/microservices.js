@@ -13,7 +13,7 @@ export default function Microservices() {
                     </div>
                     <div className="space-y-8 py-8">
                         <p className="text-5xl font-bold text-gray-900">
-                            Cloud Agnostic & Servless.
+                            Cloud Agnostic & Serverless.
                         </p>
                         <p className="text-2xl text-gray-600 w-3/4 mx-auto">
                             The server is dead, long live the cloud. Our solutions can seamlessly be deployed on cloud platforms or on-premise infrastructures. They are cloud agnostic! 

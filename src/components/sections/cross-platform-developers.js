@@ -11,8 +11,52 @@ export default function CrossPlatformDevelopersSection() {
                             Powerful creativity and productivity tools live inside every Mac — apps 
                             that help you explore, connect, and work more efficiently.
                         </p>
+                        <div className="flex flex-wrap justify-center w-full">
+                            <div className="w-auto flex p-4">
+                                <div className="mx-auto h-24 w-24 md:h-32 w-32 lg:h-48 lg:w-48  rounded-xl border-4 border-gray-200 shadow-xl bg-gray-200">
+                                    <div className="h-full p-4 bg-serverless rounded-xl"></div>
+                                </div>
+                            </div>
+                            <div className="w-auto flex p-4">
+                                <div className="mx-auto h-24 w-24 md:h-32 w-32 lg:h-48 lg:w-48  rounded-xl border-4 border-gray-200 shadow-xl bg-gray-200">
+                                    <div className="h-full p-4 bg-hacker rounded-xl"></div>
+                                </div>
+                            </div>
+                            <div className="w-auto flex p-4">
+                                <div className="mx-auto h-24 w-24 md:h-32 w-32 lg:h-48 lg:w-48  rounded-xl border-4 border-gray-200 shadow-xl bg-gray-200">
+                                    <div className="h-full p-4 bg-hacker rounded-xl"></div>
+                                </div>
+                            </div>
+                            <div className="w-auto flex p-4">
+                                <div className="mx-auto h-24 w-24 md:h-32 w-32 lg:h-48 lg:w-48  rounded-xl border-4 border-gray-200 shadow-xl bg-gray-200">
+                                    <div className="h-full p-4 bg-hacker rounded-xl"></div>
+                                </div>
+                            </div>
+                            <div className="w-auto flex p-4">
+                                <div className="mx-auto h-24 w-24 md:h-32 w-32 lg:h-48 lg:w-48  rounded-xl border-4 border-gray-200 shadow-xl bg-gray-200">
+                                    <div className="h-full p-4 bg-hacker rounded-xl"></div>
+                                </div>
+                            </div>
+                            <div className="w-auto flex p-4">
+                                <div className="mx-auto h-24 w-24 md:h-32 w-32 lg:h-48 lg:w-48  rounded-xl border-4 border-gray-200 shadow-xl bg-gray-200">
+                                    <div className="h-full p-4 bg-hacker rounded-xl"></div>
+                                </div>
+                            </div>
+                            <div className="w-auto flex p-4">
+                                <div className="mx-auto h-24 w-24 md:h-32 w-32 lg:h-48 lg:w-48  rounded-xl border-4 border-gray-200 shadow-xl bg-gray-200">
+                                    <div className="h-full p-4 bg-hacker rounded-xl"></div>
+                                </div>
+                            </div>
+                            <div className="w-auto flex p-4">
+                                <div className="mx-auto h-24 w-24 md:h-32 w-32 lg:h-48 lg:w-48  rounded-xl border-4 border-gray-200 shadow-xl bg-gray-200">
+                                    <div className="h-full p-4 bg-hacker rounded-xl"></div>
+                                </div>
+                            </div>
+                        
+                        </div>
+                    
                     </div>
-                </div>
+                    </div>
             </>
             
     )

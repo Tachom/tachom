@@ -25,7 +25,6 @@ const IndexPage = () => {
           <div className="flex flex-wrap justify-center w-auto max-w-5xl w-full mx-auto py-12">
             <TailwindService />
             <Microservices />
-            <CrossPlatformDevelopersSection />
             <BestTeamSection />
           </div>
 

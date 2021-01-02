@@ -36,6 +36,13 @@
     height: 50vh !important;
 }
 
+.bg-techicons{
+    background: url("../../images/assets/macos_apps__dbzjnrpghe4i_large.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
 .ico-tailwind{
     background: url("../../images/assets/tailwindcss-logotype.c5531139cf347d9ed15413ed15b6dd5c.svg");
     background-repeat: no-repeat;
@@ -52,6 +59,13 @@
 
 .bg-serverless{ 
     background: url("../../images/assets/drib_00_node-lambda-cloud.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+
+.bg-hacker{ 
+    background: url("../../images/assets/hacker-knight.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
