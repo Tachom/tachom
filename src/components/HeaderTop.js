@@ -12,7 +12,7 @@ export default function HeaderTop() {
                 <div className="max-w-5xl w-full mx-auto">
                     <Navbar />
                 </div>
-                <div className="h-full text-center flex justify-center mx-auto">
+                <div className="h-full h-min-screen text-center flex justify-center mx-auto">
                     <div className="w-full lg:w-2/3 flex flex-wrap justify-center my-auto mx-auto">
                         <p className="font-bold text-6xl xl:text-7xl header-gradient-text my-auto w-full">
                             We integrate miracles and science
