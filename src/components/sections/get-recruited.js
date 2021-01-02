@@ -4,8 +4,8 @@ export default function GetRecruitedSection() {
 
     return(
             <>
-                <div className="w-full py-8 px-4">
-                    <p className="text-center font-bold text-5xl">Careers</p>
+                <div className="w-full py-8 px-4 mt-12 mx-auto">
+                    <p className="text-center font-bold text-7xl">Careers</p>
                     <p className="py-2 text-center text-2xl">We don't hire. We recruit!</p>
                     <div className="divide-y w-full py-8">
                         <div className="w-full py-12 flex justify-between">

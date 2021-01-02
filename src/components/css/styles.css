@@ -42,6 +42,20 @@
     background-size: contain;
 }
 
+.bg-manilla{
+    background-color: #e2725e;
+}
+
+.bg-milk {
+    background-color: #FAF2E3;
+}
+
+.bg-team{
+    background: url("https://images.pexels.com/photos/3183183/pexels-photo-3183183.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 .ico-tailwind{
     background: url("../../images/assets/tailwindcss-logotype.c5531139cf347d9ed15413ed15b6dd5c.svg");
