@@ -2,6 +2,8 @@ import React from "react"
 import { graphql } from "gatsby"
 import SEO from "../components/seo"
 import Navbar from "../components/Navbar"
+import "../utils/blog-style.css"
+
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
 }) {
