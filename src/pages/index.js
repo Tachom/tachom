@@ -58,7 +58,7 @@ const IndexPage = () => {
             </div>
           </div>
 
-          <div className="py-12 bg-manilla w-full">
+          <div className="py-12 w-full">
             <div className="flex flex-wrap justify-center w-auto max-w-5xl w-full mx-auto">
               <TailwindService />
               <Microservices />
