@@ -2,7 +2,7 @@
 path: "/blog/the-start"
 title: Build User Interfaces by Composing CSS Utility Classes with Tailwind
 date: 2021-01-01T22:16:01.281Z
-description: Desc
+description: Your guide to building user interfaces using tailwindcss
 ---
 Building your web app with a fully customized design is a daunting task. If you aren't a CSS expert, applying a design style to your markup can consume hours and hours as you try to tweak pixels, align elements, and bang your head on the desk in frustration.
 

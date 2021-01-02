@@ -29,7 +29,7 @@ class BlogRoll extends React.Component {
                         </p>
                       </header>
                       <p>
-                        {post.excerpt}
+                        {post.frontmatter.description}
                         <br />
                         <br />
                         <span className="subtitle is-size-5 is-block text-gray-500">
@@ -64,12 +64,13 @@ export default () => (
         ) {
           edges {
             node {
-              excerpt(pruneLength: 400)
+              excerpt(pruneLength: 200)
               id
               frontmatter {
                 path
                 title
-                date(formatString: "MMMM DD, YYYY")
+                date(fromNow: true)
+                description
               }
             }
           }
